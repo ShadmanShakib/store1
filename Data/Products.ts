@@ -3,7 +3,8 @@ export const Products=[
         id:1,
         name:'Chicken Ramen',
         dispription:'Rice Noodles(64%) (Rice Flour, Tapioca Starch), Lactose(Milk), Coconut Milk(7%), Sugar, Onion, Milk Powder, Yeast Extract, Red Pepper, Sweetcorn, Salt, Natural Flavouring.',
-        image:'',
+        image:'images/hero1.png',
+        price:10,
         nutrition:{
             energy:'298 kcal',
             fat:'1.1g',
@@ -18,7 +19,8 @@ export const Products=[
         id:2,
         name:'Chicken',
         dispription:'',
-        image:'',
+        price:5,
+        image:'images/chickenx.png',
         nutrition:{
             energy:'298 kcal',
             fat:'',
@@ -33,7 +35,8 @@ export const Products=[
         id:3,
         name:'Fish and Rice',
         dispription:'Rice Noodles(64%) (Rice Flour, Tapioca Starch), Lactose(Milk), Coconut Milk(7%), Sugar, Onion, Milk Powder, Yeast Extract, Red Pepper, Sweetcorn, Salt, Natural Flavouring.',
-        image:'',
+        image:'images/fishandrice.webp',
+        price:13,
         nutrition:{
             energy:'298 kcal',
             fat:'0.1g',
@@ -48,7 +51,8 @@ export const Products=[
         id:4,
         name:'Ty Cobb',
         dispription:'',
-        image:'',
+        price:20,
+        image:'images/tycobb.webp',
         nutrition:{
             energy:'298 kcal',
             fat:'',
@@ -60,10 +64,11 @@ export const Products=[
 
     },
     {
-        id:4,
+        id:5,
         name:'Toros Salad',
         dispription:'Rice Noodles(64%) (Rice Flour, Tapioca Starch), Lactose(Milk), Coconut Milk(7%), Sugar, Onion, Milk Powder, Yeast Extract, Red Pepper, Sweetcorn, Salt, Natural Flavouring.',
-        image:'',
+        image:'images/torossalad.png',
+        price:40,
         nutrition:{
             energy:'298 kcal',
             fat:'',
@@ -75,10 +80,11 @@ export const Products=[
 
     },
     {
-        id:4,
+        id:6,
         name:'Beef Pho',
         dispription:'Rice Noodles(64%) (Rice Flour, Tapioca Starch), Lactose(Milk), Coconut Milk(7%), Sugar, Onion, Milk Powder, Yeast Extract, Red Pepper, Sweetcorn, Salt, Natural Flavouring.',
-        image:'',
+        image:'images/beefPho.png',
+        price:29,
         nutrition:{
             energy:'658 kcal',
             fat:'0.5',

@@ -4,7 +4,7 @@
 
 @layer components{
   .green-botton{
-    @apply bg-green-500 shadow-md text-white px-5 py-3 font-semibold rounded
+    @apply bg-green-500 shadow-md text-white focus:outline-none  px-5 py-3 font-semibold rounded
   }
 }
 html,
@@ -22,4 +22,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.cardIcon:hover .cardMenu{
+  display:block;
+
 }

@@ -17,7 +17,7 @@ function Hero() {
         }
     }
     return (
-        <div className='flex relative flex-col items-center pt-10 fon pb-10 bg-gray-100'>
+        <div className='flex  relative flex-col items-center pt-28 fon pb-10 bg-gray-100'>
             <h1 className='text-xl font-bold mb-4'>Healthy Eating</h1>
             <p className='text-center text-gray-800'>A great about us block helps builds trust between you and your customers.</p>
             <button className='green-botton mt-5 mb-5'>EXPLORE OUR MENU</button>
