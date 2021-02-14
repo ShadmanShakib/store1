@@ -2,7 +2,6 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Layout from '../components/Layout'
 import Hero from '../components/Hero';
-import Section2 from '../components/Section2';
 import Foods from '../components/Foods'
 import Delivery from '../components/Delivery'
 import Offer from '../components/Offer';
@@ -17,7 +16,6 @@ export default function Home() {
       </Head>
       <Layout>
       <Hero/>
-      <Section2/>
       <Foods/>
       <Delivery/>
       <Offer/>
